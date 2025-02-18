@@ -10,7 +10,6 @@ if os.path.exists(DATA_FILE):
         known_faces = pickle.load(f)
 else:
     known_faces = {"encodings": [], "names": []}
-    # Create the file with an empty dictionary
     with open(DATA_FILE, "wb") as f:
         pickle.dump(known_faces, f)
 
