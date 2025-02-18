@@ -15,7 +15,7 @@ else:
 
 name = input("Enter the name of the person: ")
 
-video_capture = cv2.VideoCapture(0)
+video_capture = cv2.VideoCapture(1)
 
 print("Press 's' to save the detected face or 'q' to quit.")
 
